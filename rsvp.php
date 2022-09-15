@@ -1,6 +1,6 @@
 <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        $mail_to = "<devos.dutoitwedding@gmail.com>";
+        $mail_to = "devos.dutoitwedding@gmail.com";
         
         # Sender Data
         $guest = trim($_POST["guest"]);
