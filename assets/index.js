@@ -143,7 +143,7 @@
 
   window.initMap = function initMap () {
     // Venue location
-    var latlng = { lat: -25.7825004, lng: 27.8659186 }
+    var latlng = { lat: -33.7295, lng: 19.0276 }
 
     var settings = {
       zoom: 14,
