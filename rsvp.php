@@ -9,7 +9,7 @@
         $song = trim($_POST["song"]);
         $message = trim($_POST["message"]);
         
-        if ( empty($name) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        if (empty($name) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
             http_response_code(400);
             echo "Please complete the form and try again.";
             exit;
