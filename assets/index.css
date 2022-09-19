@@ -829,7 +829,7 @@ a:focus {
     font-size: 20px;
     margin: auto;
     cursor: pointer;
-	width: 150px;
+	width: 150px !important;
 }
 
 .rsvp-confirmation {
